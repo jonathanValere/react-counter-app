@@ -13,7 +13,7 @@ body {
 
 .container {
   width: 90%;
-  margin: 10% auto;
+  margin: 25vh auto;
   text-align: center;
 }
 
@@ -25,6 +25,8 @@ header {
   padding: 2rem;
   font-size: 1.5rem;
   font-weight: 100;
+  display: flex;
+  align-items: center;
 }
 
 header i {
@@ -94,6 +96,18 @@ footer {
   bottom: 0;
 }
 
-footer span {
+footer span a {
   font-weight: 800;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+@media (max-width: 765px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 0.6rem;
+  }
 }
