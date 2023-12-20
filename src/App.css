@@ -13,7 +13,8 @@ body {
 
 .container {
   width: 90%;
-  margin: 0 auto;
+  margin: 10% auto;
+  text-align: center;
 }
 
 /* HEADER */
@@ -23,9 +24,76 @@ header {
   color: #fff;
   padding: 2rem;
   font-size: 1.5rem;
+  font-weight: 100;
 }
 
 header i {
   color: var(--primary-color);
   margin-right: 1rem;
+  font-size: 2rem;
+}
+
+/* MAIN */
+
+main div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main div p {
+  font-size: 3rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 10px;
+  width: 104px;
+  padding: 1.4rem 0;
+}
+
+button {
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  color: #3e3e3e;
+}
+
+.operation {
+  width: 4rem;
+}
+
+.reset {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.3rem;
+  border-radius: 4px;
+  align-self: flex-start;
+  margin: 1rem 0;
+  width: 104px;
+}
+
+.reset:hover {
+  background-color: #214f64;
+  color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 0.7rem;
+  text-align: center;
+  background-color: #292929;
+  color: #fff;
+  padding: 1rem 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+footer span {
+  font-weight: 800;
 }
