@@ -1,7 +1,13 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-  return <h1>React counter</h1>;
+  return (
+    <>
+      <Header />
+      <main></main>
+    </>
+  );
 }
 
 export default App;
